@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6338556E-3320-79E7-2FE8-3641F7FBA662}</ProjectGuid>
+    <ProjectGuid>{FF114BFB-195D-2790-F4E1-AC527E1C76FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,25 +53,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BulletBehavior.cs" />
+     <Compile Include="Assets\EnemyDestructionDelegate.cs" />
      <Compile Include="Assets\GameManagerBehavior.cs" />
+     <Compile Include="Assets\HealthBar.cs" />
      <Compile Include="Assets\MonsterData.cs" />
+     <Compile Include="Assets\MoveEnemy.cs" />
      <Compile Include="Assets\PlaceMonster.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
-     <Compile Include="Assets\Scripts\database.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Scripts\Tutorial.cs" />
+     <Compile Include="Assets\ShootEnemies.cs" />
+     <Compile Include="Assets\SpawnEnemy.cs" />
      <None Include="Assets\Font\readme.txt" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>E:/Installer/TowerDefense-Part1-Starter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/TowerDefense-Part2-Starter/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/Installer/TowerDefense-Part1-Starter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/TowerDefense-Part2-Starter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>E:/Installer/TowerDefense-Part1-Starter/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/TowerDefense-Part2-Starter/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/Installer/TowerDefense-Part1-Starter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/TowerDefense-Part2-Starter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -276,12 +281,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/user/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Data.Sqlite">
- <HintPath>E:/Installer/TowerDefense-Part1-Starter/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
- </Reference>
- <Reference Include="System.Data">
- <HintPath>E:/Installer/TowerDefense-Part1-Starter/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
