@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ECF2468D-F554-915C-B29A-9B2F3783A06B}</ProjectGuid>
+    <ProjectGuid>{28EC3BC1-EA9F-F92B-B9B7-779F38C22E57}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -55,16 +55,16 @@
   <ItemGroup>
      <Compile Include="Assets\Plugins\db.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/user/Desktop/PPL/PPL/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/PROJEK/PPLAgro/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/user/Desktop/PPL/PPL/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/PROJEK/PPLAgro/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/user/Desktop/PPL/PPL/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/PROJEK/PPLAgro/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/user/Desktop/PPL/PPL/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/PROJEK/PPLAgro/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -265,22 +265,16 @@
  <HintPath>D:/unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Data.Sqlite">
- <HintPath>C:/Users/user/Desktop/PPL/PPL/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/PROJEK/PPLAgro/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>C:/Users/user/Desktop/PPL/PPL/Assets/Plugins/System.Data.dll</HintPath>
+ <HintPath>C:/Users/user/Desktop/PPL/PROJEK/PPLAgro/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/user/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/user/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-Runtime">
- <HintPath>C:/Users/user/Desktop/PPL/PPL/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
- </Reference>
- <Reference Include="TextMeshPro-2017.3-Editor">
- <HintPath>C:/Users/user/Desktop/PPL/PPL/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
