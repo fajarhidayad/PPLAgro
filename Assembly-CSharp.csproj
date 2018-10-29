@@ -57,8 +57,10 @@
      <Compile Include="Assets\EnemyDestructionDelegate.cs" />
      <Compile Include="Assets\GameManagerBehavior.cs" />
      <Compile Include="Assets\HealthBar.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\MonsterData.cs" />
      <Compile Include="Assets\MoveEnemy.cs" />
+     <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\PlaceMonster.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\Scripts\database.cs" />

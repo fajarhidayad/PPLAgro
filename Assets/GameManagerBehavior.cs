@@ -21,7 +21,7 @@ public class GameManagerBehavior : MonoBehaviour
         set
         {
             gold = value;
-            goldLabel.GetComponent<Text>().text = "GOLD: " + gold;
+            goldLabel.GetComponent<Text>().text = "" + gold;
         }
     }
     private int wave;
