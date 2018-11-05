@@ -6,7 +6,7 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour {
 
     public GameObject ui;
-
+    public SceneFader sceneFader;
     void Update() {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -30,7 +30,7 @@ public class PauseMenu : MonoBehaviour {
     }
 
     public void Menu() {
-        SceneManager.LoadScene("UI");
+        sceneFader.FadeTo("UI");
         Time.timeScale = 1f;
     }
 

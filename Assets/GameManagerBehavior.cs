@@ -74,7 +74,7 @@ public class GameManagerBehavior : MonoBehaviour
             }
             // 2
             health = value;
-            healthLabel.text = "HEALTH: " + health;
+            healthLabel.text = "" + health;
             // 3
             if (health <= 0 && !gameOver)
             {
