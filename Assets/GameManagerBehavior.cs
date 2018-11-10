@@ -25,6 +25,16 @@ public class GameManagerBehavior : MonoBehaviour
         }
     }
     private int wave;
+    public int getGame(){
+        if (gameOver == false)
+        {
+            return 1;
+        }
+        else {
+            return 0;
+        }
+        
+    }
     public int Wave
     {
         get
