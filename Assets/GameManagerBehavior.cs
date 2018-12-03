@@ -86,7 +86,7 @@ public class GameManagerBehavior : MonoBehaviour
             health = value;
             healthLabel.text = "" + health;
             // 3
-            if (health <= 0 && !gameOver)
+            if (health == 0 && !gameOver)
             {
                 gameOver = true;
                 GameObject gameOverText = GameObject.FindGameObjectWithTag("GameOver");

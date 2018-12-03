@@ -63,9 +63,9 @@
      <Compile Include="Assets\MoveEnemy.cs" />
      <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\PlaceMonster.cs" />
+     <Compile Include="Assets\Player.cs" />
      <Compile Include="Assets\SceneFader.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
-     <Compile Include="Assets\Scripts\database.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Scripts\Tutorial.cs" />
      <Compile Include="Assets\ShootEnemies.cs" />
@@ -282,12 +282,6 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Data.Sqlite">
- <HintPath>C:/Users/user/Desktop/PPL/PROJEK/PPLAgro/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
- </Reference>
- <Reference Include="System.Data">
- <HintPath>C:/Users/user/Desktop/PPL/PROJEK/PPLAgro/Assets/Plugins/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/user/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
