@@ -14,6 +14,16 @@ public class PauseMenu : MonoBehaviour {
         }
     }
 
+    public void Berhenti() {
+        ui.SetActive(!ui.activeSelf);
+        Time.timeScale = 0f;
+    }
+
+    public void Lanjut() {
+        ui.SetActive(!ui.activeSelf);
+        Time.timeScale = 1f;
+    }
+
     public void Toggle() {
         ui.SetActive(!ui.activeSelf);
 

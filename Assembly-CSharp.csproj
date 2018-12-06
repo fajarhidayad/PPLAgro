@@ -64,6 +64,7 @@
      <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\PlaceMonster.cs" />
      <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\SaveLoad.cs" />
      <Compile Include="Assets\SceneFader.cs" />
      <Compile Include="Assets\Scripts\CameraShake.cs" />
      <Compile Include="Assets\Scripts\GameOver.cs" />
@@ -72,6 +73,7 @@
      <Compile Include="Assets\ShootEnemies2.cs" />
      <Compile Include="Assets\Shop.cs" />
      <Compile Include="Assets\SpawnEnemy.cs" />
+     <Compile Include="Assets\TambahUser.cs" />
      <None Include="Assets\Font\readme.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/user/Desktop/PPL/PROJEK/PPLAgro/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
